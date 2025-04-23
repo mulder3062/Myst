@@ -4,6 +4,8 @@ Myst Theme for Obsidian.
 The CSS has been modified with reference to IntelliJ color schemes.  
 Confirmed to work properly on Obsidian v1.8.9.
 
+![screenshot](screenshot.png)
+
 ## Features
 - Title Style Change: Added a pen icon at the beginning of titles to make it clear when editing is in progress, and used an animated background effect to keep things visually engaging.
 - Added lines below H2 headings to help distinguish between sections more clearly.
