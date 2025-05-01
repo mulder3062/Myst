@@ -14,6 +14,12 @@ Confirmed to work properly on Obsidian v1.8.9.
 - Added folder icons in the file explorer to make it easier to distinguish between folders and files.
 
 
+## Screenshots
+
+![files](./docs/screenshot2.png)
+
+![files](./docs/screenshot3.png)
+
 ## Theme deploy
 If you have modified theme.css, manifest.json, create a new release in the following order.
 
