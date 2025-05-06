@@ -20,6 +20,10 @@ Confirmed to work properly on Obsidian v1.8.9.
 
 ![files](./docs/screenshot3.png)
 
+If `Obsidian > Settings > Appearance > Show inline title` is set to Off, the animation is applied to H1.
+
+![files](./docs/screenshot4.png)
+
 ## References
 - [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
 - [Release your theme with GitHub Actions](https://docs.obsidian.md/Themes/App+themes/Release+your+theme+with+GitHub+Actions)
