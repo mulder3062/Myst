@@ -20,29 +20,7 @@ Confirmed to work properly on Obsidian v1.8.9.
 
 ![files](./docs/screenshot3.png)
 
-## Theme deploy
-If you have modified theme.css, manifest.json, create a new release in the following order.
-
-### 1.Tag creation
-
-```bash
-git tag -a 1.0.1 -m "1.0.1"
-git push origin 1.0.1
-```
-
-### 2.Performed by GitHub action
-
-Github action is automatically executed.
-Wait until the action ends normally.
-
-### 3.Release creation
-1. Select `Release` in the right sidebar.
-2. Select `draft a new release`.
-3. Input tag selection and title (explanation can be omitted)
-4. attached `manifest.json` and `theme.css`
-5. `Publish Release`
-
-### References
+## References
 - [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
 - [Release your theme with GitHub Actions](https://docs.obsidian.md/Themes/App+themes/Release+your+theme+with+GitHub+Actions)
 - [Submit your theme](https://docs.obsidian.md/Themes/App+themes/Submit+your+theme)
