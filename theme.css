@@ -247,6 +247,10 @@ body:not(.show-inline-title) .markdown-source-view .HyperMD-header-1 {
 }
 
 .theme-light {
+	::selection {
+		color: white;
+	}
+
 	--h1-color: #000;
 	--h2-color: #000;
 	--h3-color: #000;
