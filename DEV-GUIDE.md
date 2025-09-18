@@ -14,15 +14,48 @@ If your theme is `Myst`, the CSS path will be `obsidian/.obsidian/themes/Myst/th
 
 When you modify the `theme.css` file, you can immediately see the changes in Obsidian.
 
-# Github Actions으로 테마 릴리즈하기
-[가이드](https://docs.obsidian.md/Themes/App+themes/Release+your+theme+with+GitHub+Actions)
+# Release theme 
 
-참고: 이미 github action에 `Release Obsidian theme`가 있다면 수정 후 아래 단계를 실행합니다.
+## 1. `manifest.json` version update
+
+example:
+```json
+{
+	"name": "Myst",
+	"version": "1.0.7",
+	"minAppVersion": "1.9.12",
+	"author": "mulder3062",
+	"authorUrl": "https://github.com/mulder3062"
+}
+```
+
+## 2. `version.json` version update
+
+example:
+```json
+{
+	"1.0.0": "1.8.9",
+	"1.0.1": "1.8.9",
+	"1.0.2": "1.8.9",
+	"1.0.3": "1.8.9",
+	"1.0.4": "1.8.9",
+	"1.0.5": "1.8.9",
+	"1.0.6": "1.8.10",
+	"1.0.7": "1.9.12"
+}
+```
+
+
+
+## 3. GitHub Actions
+[Guide](https://docs.obsidian.md/Themes/App+themes/Release+your+theme+with+GitHub+Actions)
+
+Note: If you already have a 'release obsidian theme' in the Github Action, run the following steps after modification.
 
 1. Create a tag that matches the version in the `manifest.json` file.
 ```bash
-git tag -a 1.0.1 -m "1.0.1"
-git push origin 1.0.1
+git tag -a 1.0.7 -m "1.0.7"
+git push origin 1.0.7
 ```
 
 2. Browse to your repository on GitHub and select the Actions tab. Your workflow might still be running, or it might have finished already.
